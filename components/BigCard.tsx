@@ -11,7 +11,7 @@ export const BigCard = (props: Props) => {
         <span className='absolute top-[-120px] left-[calc(50%_-_150px)]' > <Image src={img} height={200} width={300} /></span>
         <div className='flex items-center justify-between text-white font-extrabold'>
         <h2 className='text-2xl w-[50%] capitalize '>Homestay Rumah Putih</h2>
-        <span className='text-3xl '>Rs. 12,000</span>
+        <span className='text-3xl '>Rp. 12,000</span>
         </div>
         <div className='flex flex-col'>
         <span className='flex items-center text-white font-bold my-4'>
