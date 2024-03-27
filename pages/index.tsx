@@ -96,9 +96,9 @@ const Home: NextPage = () => {
         <BigCard/>
         </div>
         <div id='guide' ref={accordions.ref} className={`flex flex-col transition-all duration-[2000ms] ease-in-out ${accordions.inView ? 'translate-y-[0vh] opacity-100' : 'translate-y-[20vh] opacity-0'} `}>
-        <AccordionCard title={'Homestay Sampuran'} price={'12000'} desc={'Homestay ini menawarkan pengalaman menginap yang autentik dan dekat dengan kehidupan lokal di Pulau Sibandang.'} img={mountains}   />
-        <AccordionCard title={'Homestay Erly'} price={'15000'} desc={'Penginapan ramah keluarga dengan pemandangan alam yang menakjubkan'} img={beach}   />
-        <AccordionCard title={'Homestay Pak Theresia'} price={'18000'} desc={'Akomodasi yang hangat dan menyenangkan di tengah pulau'} img={river}   />
+        <AccordionCard title={'Homestay Sampuran'} price={'250000'} desc={'Homestay ini menawarkan pengalaman menginap yang autentik dan dekat dengan kehidupan lokal di Pulau Sibandang.'} img={mountains}   />
+        <AccordionCard title={'Homestay Erly'} price={'250000'} desc={'Penginapan ramah keluarga dengan pemandangan alam yang menakjubkan'} img={beach}   />
+        <AccordionCard title={'Homestay Pak Theresia'} price={'250000'} desc={'Akomodasi yang hangat dan menyenangkan di tengah pulau'} img={river}   />
         </div>
         </div>
         <div className='flex justify-center md:flex-row flex-col mt-20 mb-10 mx-10'>
