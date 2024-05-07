@@ -76,7 +76,7 @@ const Home: NextPage = () => {
       <div id='heading' className="bg-[url('../public/imgs/lace.png')] bg-contain h-[80px] w-full " ></div>
       <div  className='my-20'>
         <div ref={heading.ref} className={`${heading.inView ? 'translate-y-[0vh] opacity-1' : 'translate-y-[10vh] opacity-0'} transition-all duration-1000 ease-out `}>
-        </h1> className='text-xs lg:text-sm font-heading my-5 text-center w-full tracking-[10px] font-semibold'>Dsfasfsasfafsafsaf</h1>
+        <h1 className='text-xs lg:text-sm font-heading my-5 text-center w-full tracking-[10px] font-semibold'>Dsfasfsasfafsafsaf</h1>
         <h4 className='text-xs lg:text-sm font-heading my-5 text-center w-full tracking-[10px] font-semibold'>DESTINASI</h4>
         <h3 className='text-3xl lg:text-4xl my-5 tracking-wide w-full text-center capitalize font-extrabold'>Destinasi Wisata Pulau Sibandang</h3>
         </div>
